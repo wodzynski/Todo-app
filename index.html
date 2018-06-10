@@ -6,25 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Todo list</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/todos.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="Assets/css/todos.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-    <script type="text/javascript" src="assets/js/lib/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script type="text/javascript" src="Assets/js/lib/jquery-3.3.1.min.js"></script>
 
 </head>
 
 <body>
 
     <div id="container">
-        <h1>To-do list</h1>
+        <h1>To-do list <span id="plus"><i class="fas fa-plus"></i></span></h1>
         <input type="text" placeholder="Add New Todo">
         <ul>
-            <li><span>X</span> Go To Potions Class</li>
-            <li><span>X</span> Visit Hagrid</li>
-            <li><span>X</span> Buy a New Robe</li>
+            <li><span class="trash"><i class="fa fa-trash"></i></span> Go To Potions Class</li>
+            <li><span class="trash"><i class="fa fa-trash"></i></span> Visit Hagrid</li>
+            <li><span class="trash"><i class="fa fa-trash"></i></span> Buy a New Robe</li>
         </ul>
     </div>
 
-    <script type="text/javascript" src="assets/js/todos.js"></script>
+    <script type="text/javascript" src="Assets/js/todos.js"></script>
 </body>
 
 </html>
